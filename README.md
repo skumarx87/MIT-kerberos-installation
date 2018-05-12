@@ -1,7 +1,7 @@
 # MIT-kerberos-installation
-This is very simple shell script to install and configure the MIT kerberos on Linu Operating system.
+This is very simple shell script to install and configure the MIT kerberos on Linux Operating system.
 
-This script has been written in shell script and tested on Centos 7 with minimal configuration.
+This script has been written in shell script and tested on Centos 7 with minimal/less security configurations.
 
 To setup the MIT kerberos server modify below lines and run the follwoing command.
 

@@ -5,6 +5,8 @@ This script has been written in shell script and tested on Centos 7 with minimal
 
 To setup the MIT kerberos server modify below lines and run the follwoing command.
 
+Note: before run this script,Make sure kdc server and kdc client hosts are able to communicate through FQDN and necessary host entries are updated in /etc/hosts file
+
 KRB_DOMAIN_NAME="TANU.COM"
 
 KDC_PASSWD=kdc123

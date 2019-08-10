@@ -38,7 +38,7 @@ service krb5kdc start
 service kadmin start
 chkconfig krb5kdc on
 chkconfig kadmin on
-echo -e "\n`ts` Creating admin principal"
+echo -e "\n Creating admin principal"
 kadmin.local -q "addprinc -pw root123 root/admin"
 
 

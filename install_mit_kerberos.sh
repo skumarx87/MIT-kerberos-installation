@@ -12,7 +12,7 @@ server_setup()
 {
 
 echo "Starting server installation"
-yum -y install krb5-server krb5-libs
+yum -y install krb5-server krb5-libs krb5-server-ldap
 CUR_DIR=$(pwd)
 
 cp -nv /etc/krb5.conf $CUR_DIR/krb5.conf_ORG
